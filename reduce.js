@@ -89,8 +89,8 @@ Examples:
 */
 
 function partition(arr, callback) {
-const falseArr = [];
-const trueArr = [];
+// const falseArr = [];
+// const trueArr = [];
 return arr.reduce(function(acc, next){
  if (callback(next)){
     acc[0].push(next);
